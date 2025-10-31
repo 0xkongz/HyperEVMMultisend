@@ -4,25 +4,25 @@ import { defineChain } from 'viem';
 
 // Define HyperEVM chain
 export const hyperEVM = defineChain({
-  id: 998,
+  id: 999,
   name: 'HyperEVM',
   nativeCurrency: {
     decimals: 18,
-    name: 'HyperEVM',
+    name: 'Hyperliquid',
     symbol: 'HYPE',
   },
   rpcUrls: {
     default: {
-      http: [process.env.NEXT_PUBLIC_HYPEREVM_RPC_URL || 'https://rpc.hyperevm.com'],
+      http: [process.env.NEXT_PUBLIC_HYPEREVM_RPC_URL || 'https://rpc.hyperliquid.xyz/evm'],
     },
     public: {
-      http: [process.env.NEXT_PUBLIC_HYPEREVM_RPC_URL || 'https://rpc.hyperevm.com'],
+      http: [process.env.NEXT_PUBLIC_HYPEREVM_RPC_URL || 'https://rpc.hyperliquid.xyz/evm'],
     },
   },
   blockExplorers: {
     default: {
       name: 'HyperEVM Explorer',
-      url: 'https://explorer.hyperevm.com',
+      url: 'https://hyperevmscan.io',
     },
   },
   testnet: false,

@@ -14,9 +14,9 @@ module.exports = {
   },
   networks: {
     hyperevm: {
-      url: process.env.HYPEREVM_RPC_URL || "https://rpc.hyperevm.com",
+      url: process.env.HYPEREVM_RPC_URL || "https://rpc.hyperliquid.xyz/evm",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 998, // Update with actual HyperEVM chain ID
+      chainId: 999,
     },
     localhost: {
       url: "http://127.0.0.1:8545"
