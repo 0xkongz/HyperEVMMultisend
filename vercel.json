@@ -4,8 +4,9 @@
   "framework": "nextjs",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_MULTISENDER_ADDRESS": "@multisender_address",
-    "NEXT_PUBLIC_HYPEREVM_CHAIN_ID": "998",
-    "NEXT_PUBLIC_HYPEREVM_RPC_URL": "https://rpc.hyperevm.com"
+    "NEXT_PUBLIC_MULTISENDER_ADDRESS": "0x99ce72f3882DA665e3Ea89A3242E9b4C86914395",
+    "NEXT_PUBLIC_HYPEREVM_CHAIN_ID": "999",
+    "NEXT_PUBLIC_HYPEREVM_RPC_URL": "https://rpc.hyperliquid.xyz/evm",
+    "NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID": "5e02e6d1c0183dcb74a0f0ef4ca00150"
   }
 }
