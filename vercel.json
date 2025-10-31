@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_MULTISENDER_ADDRESS": "@multisender_address",
+    "NEXT_PUBLIC_HYPEREVM_CHAIN_ID": "998",
+    "NEXT_PUBLIC_HYPEREVM_RPC_URL": "https://rpc.hyperevm.com"
+  }
+}
