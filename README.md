@@ -2,6 +2,8 @@
 
 A decentralized application for sending tokens to multiple addresses in a single transaction on HyperEVM.
 
+🚀 **Live Demo:** Coming soon on Vercel!
+
 ## Features
 
 - 🚀 Send native HyperEVM tokens to multiple addresses
