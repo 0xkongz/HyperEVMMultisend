@@ -22,6 +22,24 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
   },
+  etherscan: {
+    apiKey: {
+      hyperevm: "4G4E8YWEI13KJDG856KR6KUUC88GWD3XYX"
+    },
+    customChains: [
+      {
+        network: "hyperevm",
+        chainId: 999,
+        urls: {
+          apiURL: "https://api.etherscan.io/v2/api?chainid=999",
+          browserURL: "https://hyperevmscan.io"
+        }
+      }
+    ]
+  },
+  sourcify: {
+    enabled: false
+  },
   paths: {
     sources: "./contracts",
     tests: "./test",

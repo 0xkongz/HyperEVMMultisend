@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js --network hyperevm"
+    "deploy": "hardhat run scripts/deploy.js --network hyperevm",
+    "verify": "hardhat verify --network hyperevm",
+    "verify:sourcify": "node scripts/verify-sourcify.js"
   },
   "dependencies": {
     "next": "^14.0.4",
